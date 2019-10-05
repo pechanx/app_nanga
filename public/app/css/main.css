@@ -1,0 +1,130 @@
+/*body { 
+    background: url(http://paltas.racoservices.com/public/img/bk.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.navbar-default{
+    background-color: rgba(255,255,255,.8) !important;
+}
+.navbar{
+    border-radius: 0px !important;
+
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.count{
+    font-size: 40px;
+}
+.lote_conflicto{
+    color: rgba(255, 0, 0, 0.55);
+}
+
+.txtContador{
+    color: rgba(92, 184, 92, 0.55);
+}
+
+.tile_count {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tile_count .tile_stats_count {
+/*    border-bottom: 1px solid #D9DEE4;*/
+    padding: 0 10px 0 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+}
+
+.tile_count .tile_stats_count:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 65px;
+/*    border-left: 2px solid #ADB2B5;*/
+    margin-top: 10px;
+}
+
+
+
+.tile_count .tile_stats_count span {
+    font-size: 12px;
+}
+
+
+/*
+RESET Bootstrap
+*/
+
+/*.form-control, .btn, .panel{*/
+*{
+    border-radius: 0px !important;
+}
+.btnSinLabel{
+    margin-top: 0.65em;
+}
+
+.centrado {
+        height: 500px;
+        display: -webkit-flex;
+        display:         flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+}
+
+

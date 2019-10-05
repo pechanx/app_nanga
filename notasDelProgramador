@@ -1,0 +1,8 @@
+Tabla: per_persona
+Nota: Si no se tiene nombres, apellidos, estado civil no puede estar validado.
+
+Pendiente setear el número de Bloques al validar la clave
+
+Si los datos de matricula o inscripcion vienen vacios setear 0 en los archivos de reset
+
+
